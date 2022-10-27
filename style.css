@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav { 
+    background-color:#f3d7ca;
+    background:linear-gradient(#f3d7ca,white)
+}
+
+.fotosGaleria {
+    transition: all 0.3s;
+    border-radius: 22px;
+}
+
+.fotosGaleria:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+}
+
+
+@media screen and (max-width:768px){
+    
+    .fotosGaleria {
+        margin-top: 15px;
+    }
+}
+
