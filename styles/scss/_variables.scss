@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+$primaryFont: 'Anonymous Pro', monospace;
+$colorPrincipal: #f3d7ca;
+$colorBlanco: #ffff;
+$colorLetra: #2B2929;
+
+
+%imagenes {
+    transition: all 0.3s;
+    border-radius: 22px;
+
+    &:hover {
+        transform: scale(1.1) translateY(-10px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    }
+}

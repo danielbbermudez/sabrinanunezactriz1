@@ -1,0 +1,8 @@
+.fotosGaleria {
+    @extend %imagenes;
+}
+
+.carousel-inner{
+    height: 280px;
+    @extend %imagenes;
+}

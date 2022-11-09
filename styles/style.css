@@ -22,25 +22,11 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
 }
 
-.bg-naranja {
-    background:linear-gradient(white,#dba68ecb);
-}
 
 footer {
     color: black;
 }
 
-.btn-form {
-    background-color: orange;
-    color: black;
-}
-
-.btn-form:hover{
-    background-color: black;
-    color: orange;
-    border: 2px solid orange;
-
-}
 
 .carousel-inner{
     height: 280px;

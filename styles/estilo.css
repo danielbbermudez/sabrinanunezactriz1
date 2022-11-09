@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+.carousel-inner, .fotosGaleria {
+  transition: all 0.3s;
+  border-radius: 22px;
+}
+.carousel-inner:hover, .fotosGaleria:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anonymous Pro", monospace;
+  color: #2B2929;
+}
+
+nav {
+  color: #f3d7ca;
+  background: linear-gradient(#f3d7ca, white);
+}
+
+footer {
+  color: #2B2929;
+  background: linear-gradient(#f3d7ca, white);
+}
+
+@media screen and (max-width: 768px) {
+  .fotosGaleria {
+    margin-top: 15px;
+  }
+}
+.carousel-inner {
+  height: 280px;
+}/*# sourceMappingURL=estilo.css.map */
